@@ -16,9 +16,9 @@
 
 If you have Python 3.8 you can install them trough powershell like this:
 
->> py -3.8 -m pip install selenium
->> py -3.8 -m pip install spellchecker
->> py -3.8 -m pip install beautifulsoup4
+- >> py -3.8 -m pip install selenium
+- >> py -3.8 -m pip install spellchecker
+- >> py -3.8 -m pip install beautifulsoup4
 
 
 # HOW TO RUN
@@ -31,14 +31,14 @@ Just with a simple command line:
 
 In runnable.py you can do the following
 
-service = Tests("https://yourwebsite.com") # Fill with your website URL
-service.runTestOne() Comment out every test you want to skip
-service.runTestTwo()
-service.runTestThree()
-service.runTestFour()
-service.runTestFive()
-service.runTestSix()
-service.runTestSeven()
+- service = Tests("https://yourwebsite.com") # Fill with your website URL
+- service.runTestOne() Comment out every test you want to skip
+- service.runTestTwo()
+- service.runTestThree()
+- service.runTestFour()
+- service.runTestFive()
+- service.runTestSix()
+- service.runTestSeven()
 
 # In tests.py you have a lot of constants which you can configure
 
