@@ -31,7 +31,7 @@ Just with a simple command line:
 In runnable.py you can edit the following
 
 - service = Tests("https://yourwebsite.com") # Fill with your website URL
-- service.runTestOne() Comment out every test you want to skip
+- # service.runTestOne() Comment out every test you want to skip
 - service.runTestTwo()
 - service.runTestThree()
 - service.runTestFour()
@@ -41,17 +41,21 @@ In runnable.py you can edit the following
 
 # In tests.py you have a lot of constants which you can configure
 
-// You can leave this empty or set a default in case you initialize Tests() without an URL
+You can leave this empty or set a default in case you initialize Tests() without an URL
+
 TARGET_DOMAIN = "" 
 
-// Required for TEST 7. Checks if any of these URLs redirect to TARGET_DOMAIN
+Required for TEST 7. Checks if any of these URLs redirect to TARGET_DOMAIN
+
 TARGET_DOMAIN_MUST_GET_REDIRECTIONS_FROM = []
 
 # You can ignore checks on certain keywords
 
 For example, if you want to ignore spell checking on the keyword 'dummy' and 'foo' you can do:
+
 TEST_FIVE_IGNORE_KEYWORDS_IN_WORDS = ['dummy','foo']
 
 Or if you want to skip check on .css and .js links:
+
 TEST_THREE_IGNORE_KEYWORDS = [".js", ".css"]
 
