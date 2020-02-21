@@ -29,7 +29,7 @@ Just with a simple command line:
 
 # HOW TO CONFIGURE
 
-In runnable.py you can do the following
+In runnable.py you can edit the following
 
 - service = Tests("https://yourwebsite.com") # Fill with your website URL
 - service.runTestOne() Comment out every test you want to skip
