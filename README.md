@@ -1,5 +1,4 @@
-# py simple website checkup
-# Performs the following tests
+# Performs the following tests on a given website
  1) Main Page Loading Time (calculate time required until the document is fully loaded).
  2) Dead links checker (Grabs all [href] and [src] links and checks if there's any dead).
  3) Sub-pages Loading Time (Calculate time required until the sub-pages [href] documents are fully loaded).
