@@ -2,7 +2,7 @@
 # Performs the following tests
  1) Main Page Loading Time (calculate time required until the document is fully loaded).
  2) Dead links checker (Grabs all [href] and [src] links and checks if there's any dead).
- 3) Sub-pages Loading Time (Calculate time required until the document is fully loaded).
+ 3) Sub-pages Loading Time (Calculate time required until the sub-pages [href] documents are fully loaded).
  4) Insecure Contents Links (Grabs all [href] and [src] and verifies if they're loaded trough HTTPS or not)
  5) Main Page and Sub Pages Spell Checking (Grabs whole text from the website's pages and performs a spell checking test on a word-by-word casis)
  6) Image Alt Checker (Checks if there are any <img> elements with missing or empty [alt] attribute)
